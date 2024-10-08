@@ -1,0 +1,8 @@
+---
+title: "My SSH List"
+---
+
+ssh -p 3311 -N -L 3326:localhost:3306 ideplex@103.226.139.14
+ssh -i ~/.ssh/id_rsa myvpsserver@103.196.155.35
+ssh -p 3311 ideplex@103.226.139.14
+ssh -i keypem/keyroot.pem root@194.233.67.224 -p 2222
